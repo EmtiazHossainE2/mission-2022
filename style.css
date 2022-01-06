@@ -1,0 +1,111 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin : 0 ;
+}
+.heading{
+    padding-left: 10px;
+    margin-top: 120px;
+    border-left: 5px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 1;
+}
+.header-color1{
+    font-size: 40px;
+    color: orange;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+    margin: 50px 0 40px ;
+}
+.container{
+    display: flex;
+}
+.half-width{
+    width: 42%;
+    margin-left: 8%;
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    background: linear-gradient(tomato , #da9412 );
+    padding: 15px 30px ;
+}
+/* Mission Area */ 
+.mission-area{
+    margin-bottom: 100px;
+}
+.mission-area h1{
+    text-align: center;
+    margin: 50px 0;
+}
+.mission-item{
+    width: 26% ; 
+    margin-left: 4%;
+    border-radius: 5%;
+    padding: 20px 10px 0 20px;
+}
+.mission-item p , footer p , .develop p{
+    margin-top: 0;
+}
+.mission-item img{
+    width: 40% ;
+}
+#mission{
+    background-color: #e2dada;
+}
+#vission{
+    background-color: #ccada1;
+}
+#goal{
+    background-color: #e3e7a4;
+}
+
+/* Develop */ 
+.develop{
+    margin-left: 0;
+}
+.develop-banner {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin-bottom: 100px;
+}
+.community-banner {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+    margin-bottom: 80px;
+}
+/*about-me */ 
+.about-me{
+    margin-bottom: 80px;
+}
+/* Contact -area */ 
+.contact-me{
+    text-align: center;
+    margin:0  20% 70px 20%;
+    border-radius: 5%;
+    padding: 20px 10px 0 20px;
+    background-color: #e2dada;
+}
+.submit{
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(22, 24, 19);
+    color: #fff;
+    padding: 20px 0;
+}
